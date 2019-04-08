@@ -8,7 +8,7 @@ var mongoose = require("mongoose");
 var indexRouter = require("./routes/index");
 var playersRouter = require("./routes/players");
 
-mongoose.connect("mongodb://127.0.0.1:27017/playerdatabase", {
+mongoose.connect("mongodb://127.0.0.1:27017/footballers", {
   useNewUrlParser: true
 });
 
